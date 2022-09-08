@@ -1,6 +1,10 @@
-xiasongmin:
-    1、先正常部署，无限弹出“your sendkey is”，记住key。
-    2、然后telechan/src/lib/telegram.ts   greeting删掉即可。
+## xiasongmin:
+    1.先正常部署，无限弹出“your sendkey is”，记住key。
+    2.然后telechan/src/lib/telegram.ts   greeting删掉即可。
+
+# 所以这个东西和官方的有什么区别？
+ - 官方api：https://api.telegram.org/bot{token}/getMe  
+ - 发送消息接口：https://api.telegram.org/bot{token}/sendMessage?text=hello&chat_id=
 
 ⚠️⚠️⚠️ 由于近期 vercel 环境疑似做了调整，新部署的机器人识别命令会报错(原来创建的机器人不受影响)，我最近没空修改此项目，先 Archive 掉。着急使用的同学可以 fork & fix 先。
 
