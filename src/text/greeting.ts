@@ -11,4 +11,4 @@ const replyToMessage = (ctx: any, messageId: string, string: string) =>
 //   // replyToMessage(ctx, messageId, `Hello, ${userName} (user_id: ${ctx.from.id})! \n Your Message id is: ${messageId}`);
 // };
 
-export { greeting };
+// export { greeting };
