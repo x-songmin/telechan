@@ -24,7 +24,7 @@ function botUtils() {
 		return ctx.reply("This is a test bot.");
 	});
 
-	bot.command("about", about()).on("text", greeting());  //.command("sendkey", sendkey())
+	bot.command("about", about()).command("sendkey1", sendkey()).on("text", greeting()); 
 }
 
 async function localBot() {
